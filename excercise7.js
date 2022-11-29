@@ -3,7 +3,7 @@ function rect(value){
     for(var i=0;i<value.length;i++){  
         var temp =value[i];
         if(l<temp.length){
-            l=temp.length;     /* assigning length of the longest string in the list */
+            l=temp.length;     
         }
     }
     for(var j=0;j<l+6;j++)
